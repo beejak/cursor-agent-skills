@@ -15,6 +15,24 @@ The agent reads each skill’s **description** (in the frontmatter). When your r
 
 Keep the main `SKILL.md` under about 500 lines. For long reference material, link to separate files (e.g. `reference.md`, `examples.md`) from the skill.
 
+### Minimal example
+
+A complete skill can be this short:
+
+```markdown
+---
+name: short-summary
+description: Writes a 2–3 sentence summary. Use when the user asks for a summary or recap.
+---
+
+# Short Summary
+
+Read the content the user refers to. Reply with 2–3 sentences. No bullet points.
+```
+
+The agent uses the **description** to decide when to apply the skill; the **body** tells it how to respond.
+
 ## Next step
 
-Next: [Where to put skills](02-where-to-put-skills.md).
+- **Hands-on first?** [Quick start: create your first skill in 5 minutes](00-quick-start.md).
+- **Read the guide:** [Where to put skills](02-where-to-put-skills.md).

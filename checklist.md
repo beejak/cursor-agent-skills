@@ -5,6 +5,7 @@ Use this before you use or share a new skill.
 ## Core quality
 
 - [ ] Description is specific and includes key terms
+- [ ] Tested in Cursor: ask something that matches the description and confirm the agent follows the skill
 - [ ] Description includes both **WHAT** and **WHEN**
 - [ ] Written in third person
 - [ ] SKILL.md body is under 500 lines

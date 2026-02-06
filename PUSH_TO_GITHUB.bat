@@ -25,9 +25,9 @@ echo Adding all files...
 git add .
 
 echo Creating commit...
-git commit -m "Initial commit: Cursor agent skills tutorial"
+git commit -m "Update tutorial"
 if errorlevel 1 (
-    echo Commit failed or nothing to commit. If "nothing to commit", run: git status
+    echo Nothing to commit - pushing existing commits...
 )
 
 REM Create/rename branch to main - required before push
