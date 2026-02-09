@@ -15,6 +15,7 @@ Learn how to create **agent skills** in Cursor—markdown instructions that teac
 - [Example skills](#example-skills)
 - [Checklist before publishing](#checklist-before-publishing-a-skill)
 - [FAQ / Troubleshooting](#faq--troubleshooting)
+- [Ecosystem & related repos](#ecosystem--related-repos)
 - [Contributing](#contributing)
 
 ---
@@ -65,6 +66,7 @@ Agent skills are **markdown files** (with YAML frontmatter) that teach the Curso
 | [05](docs/05-patterns-and-examples.md) | Patterns and examples (template, workflow, scripts) |
 | [06](docs/06-project-vs-personal.md) | Project vs personal skills |
 | [07](docs/07-faq.md) | FAQ / Troubleshooting |
+| [08](docs/08-ecosystem-and-related-repos.md) | Ecosystem & related repos (spec, awesome list, catalogs) |
 
 ---
 
@@ -104,6 +106,12 @@ Before you use or share a skill, run through [checklist.md](checklist.md) to ens
 - Yes. Put the skill in **project** location: `<repo>/.cursor/skills/<name>/` and commit it. It applies only when that repo is open.
 
 More: [docs/07-faq.md](docs/07-faq.md).
+
+---
+
+## Ecosystem & related repos
+
+The most starred agent-skills repos on GitHub: the [Agent Skills spec](https://github.com/agentskills/agentskills) (~9k stars), [Awesome Agent Skills](https://github.com/skillmatic-ai/awesome-agent-skills) (curated list), [jdrhyne/agent-skills](https://github.com/jdrhyne/agent-skills) (cross-platform collection that works with Cursor), and official catalogs (Anthropic, OpenAI, Microsoft). See [docs/08-ecosystem-and-related-repos.md](docs/08-ecosystem-and-related-repos.md) for links and short descriptions.
 
 ---
 
